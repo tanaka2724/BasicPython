@@ -4,4 +4,10 @@ text = """
 """
 
 # TODO
+# 文字数取得
+word_lengths = [len(word.strip(",.")) for word in text.split()]
 
+# つなげる
+result = "".join(map(str, word_lengths))
+
+print(result)   
