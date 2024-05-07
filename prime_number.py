@@ -2,11 +2,9 @@ a = int(input("aの値を入力: "))
 b = int(input("bの値を入力: "))
 
 # TODO
-
 #aの素数判定
 factor = 2
-
-while factor * factor <= a:
+while factor * factor <= a :
     if a % factor == 0:
         print(str(a),"は素数ではない")
         break
@@ -14,7 +12,10 @@ while factor * factor <= a:
     else:
         factor += 1
 else:
-     print(str(a),"は素数です")       
+    if a == 1:
+        print(str(a), "は素数ではない")
+    else:
+        print(str(a),"は素数です")       
      
      
 #bの素数判定
@@ -26,4 +27,12 @@ while factor * factor <= b:
     else:
         factor += 1
 else:
-    print(str(b), "は素数です")     
+    if b == 1:
+        print(str(b),"は素数ではない")
+    else:
+        print(str(b), "は素数です")     
+
+
+
+    
+    
