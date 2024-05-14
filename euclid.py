@@ -36,5 +36,3 @@ pairs = 100000
 max = 10000
 
 print("エクストラ問題の確率", probability(pairs, max))
-    
-

@@ -23,5 +23,4 @@ result_3 = integral(f3, -100, 100, 1000)
 print(result_1)
 print(result_2)
 print(result_3)
-
-        
+      
